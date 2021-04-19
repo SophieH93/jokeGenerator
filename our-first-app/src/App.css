@@ -1,0 +1,60 @@
+body {
+  background: url("https://i.kym-cdn.com/entries/icons/original/000/031/430/joker-thomas-wayne-reveal-1165610-1280x0.jpeg")
+    no-repeat center fixed;
+  background-size: cover;
+}
+
+center {
+  margin: 50px;
+  margin-top: 10%;
+  background-color: #e0e0e0;
+  opacity: 0.5;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 3rem;
+  padding: 1rem;
+  color: #1b4705;
+  text-shadow: 2px 2px 3px red;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+form {
+  padding: 2rem;
+}
+
+input {
+  padding: 5px;
+  margin: 5px;
+  font-size: 1.2rem;
+  border: 2px solid rgb(57, 88, 57);
+  transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  transform: scale(1.03);
+}
+
+button {
+  flex-direction: column;
+  display: flex;
+  margin-top: 1rem;
+  padding: 5px;
+  font-size: 1.3rem;
+  border: 2px solid rgb(162, 192, 162);
+  border-radius: 5px;
+  background-color: darkgreen;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.04);
+  color: darkgreen;
+  background-color: rgb(142, 196, 140);
+}
